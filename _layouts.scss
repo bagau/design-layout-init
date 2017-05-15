@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+.l-container {
+	width: 100%;
+	min-width: $base-container-width;
+}
+
+.l-wrapper {
+	width: $base-wrapper-width;
+	margin: 0 auto;
+}

@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+html, body {
+	@include font($base-font-family, 400);
+	font-size: $base-font-size;
+	color: $base-color;
+	line-height: $base-line-height;
+	height: 100%;
+}
+
+html {
+	@include box-sizing('border-box');
+}
+
+*, *:before, *:after {
+	@include box-sizing('inherit');
+}
