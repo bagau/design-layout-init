@@ -1,10 +1,12 @@
 @charset "UTF-8";
 
+// main container, min-width of site layout
 .l-container {
 	width: 100%;
 	min-width: $base-container-width;
 }
 
+// wrapper for block centered with max-width
 .l-wrapper {
 	width: $base-wrapper-width;
 	margin: 0 auto;
